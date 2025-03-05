@@ -26,7 +26,6 @@
 
   // Wait for the holdem wrapper to be added to the tree
   waitForElement(HOLDEM_WRAPPER_SELECTOR, holdemWrapper => {
-    let listeners = {}
     const observers = []
 
     const cleanUp = () => {
@@ -35,12 +34,6 @@
         observer.disconnect()
       }
       observers.length = 0
-
-      // Clean up listeners
-      for (const [element, eventHandler] of Object.entries(listeners)) {
-        element.removeEventListener('change', eventHandler)
-      }
-      listeners = {}
     }
 
     const addSettingsElement = (panelElement) => {
@@ -80,7 +73,6 @@
         }
 
         checkbox.addEventListener('change', onCheckboxChange)
-        listeners[checkbox] = onCheckboxChange
 
         supportedButtonContainer.appendChild(checkbox)
         supportedButtonContainer.appendChild(label)
