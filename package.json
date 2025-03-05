@@ -1,0 +1,10 @@
+{
+  "name": "poker_hide_buttons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "poker_hide_buttons.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true
+}
