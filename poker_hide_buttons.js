@@ -1,14 +1,16 @@
 // ==UserScript==
-// @name     Torn Hide Poker Buttons
-// @namespace  http://tampermonkey.net/
-// @version    1.0
+// @name         Torn Hide Poker Buttons
+// @namespace    https://github.com/neth392/Torn-Poker-Hide-Buttons
+// @version      1.0.0
 // @description  Configure hiding the "Leave" and "Sit out" buttons in torn.com's poker.
-// @author     neth [3564828]
-// @match    https://www.torn.com/page.php?sid=holdem
-// @run-at   document-end
-// @grant    GM_setValue
-// @grant    GM_getValue
-// @grant    GM_log
+// @updateURL    https://github.com/neth392/Torn-Poker-Hide-Buttons/raw/main/poker_hide_buttons.js
+// @downloadURL  https://github.com/neth392/Torn-Poker-Hide-Buttons/raw/main/poker_hide_buttons.js
+// @author       neth [3564828]
+// @match        https://www.torn.com/page.php?sid=holdem
+// @run-at       document-end
+// @grant        GM_setValue
+// @grant        GM_getValue
+// @grant        GM_log
 // ==/UserScript==
 
 
