@@ -3,8 +3,8 @@
 // @namespace    https://github.com/neth392/Torn-Poker-Hide-Buttons
 // @version      1.0.0
 // @description  Configure hiding the "Leave" and "Sit out" buttons in torn.com's poker.
-// @updateURL    https://github.com/neth392/Torn-Poker-Hide-Buttons/raw/main/poker_hide_buttons.js
-// @downloadURL  https://github.com/neth392/Torn-Poker-Hide-Buttons/raw/main/poker_hide_buttons.js
+// @updateURL    https://github.com/neth392/Torn-Poker-Hide-Buttons/raw/main/poker_hide_buttons.user.js
+// @downloadURL  https://github.com/neth392/Torn-Poker-Hide-Buttons/raw/main/poker_hide_buttons.user.js
 // @author       neth [3564828]
 // @match        https://www.torn.com/page.php?sid=holdem
 // @run-at       document-end
