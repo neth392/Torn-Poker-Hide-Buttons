@@ -2,7 +2,7 @@
   "name": "poker_hide_buttons",
   "version": "1.0.0",
   "description": "",
-  "main": "poker_hide_buttons.js",
+  "main": "poker_hide_buttons.user.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
